@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Календарь</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner _flex">
+                    <a href="" class="logo">
+                        <img class="_view1" src="img/logo.svg" alt="">
+                        <img class="_view2" src="img/logo2.svg" alt="">
+                    </a>
+
+                    <button class="burger m-btn-black">
+                        <img class="_view1" src="img/burger.svg" alt="">
+                        <img class="_view2" src="img/close.svg" alt="">
+                    </button>
+
+                    <div class="menu _flex">
+                        <div class="nav _flex">
+                            <a href="" class="nav__link"><span>Новости</span></a>
+                            <a href="" class="nav__link"><span>Материалы</span></a>
+                            <a href="" class="nav__link"><span>Календарь</span></a>
+                            <a href="" class="nav__link"><span>Реклама</span></a>
+                            <a href="" class="nav__link"><span>Контакты</span></a>
+                        </div>
+
+                        <button class="menu__btn m-btn m-btn-black">
+                            <img src="img/message.svg" alt="">
+                            <span>Подбор бизнес-клуба</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+
+
+            <div class="calendar">
+                <div class="container">
+                    <div class="calendar__inner">
+                        <div class="calendar__col1">
+                            <div class="text30 bold-text">
+                                Календарь событий
+                            </div>
+                            <div class="calendar-item">
+                                <div class="calendar-item__top">
+                                    <input type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calendar__col2">
+                            <div class="calendar__top">
+                                <div class="text30 bold-text">
+                                    Тематики
+                                </div>
+                            </div>
+                            <div class="calendar__theme">
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Маркетинг</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Продажи</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Управление</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Персонал</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Нетворкинг</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>Тренинги</span></label>
+                                </div>
+                                <div class="m-check">
+                                    <input type="checkbox">
+                                    <label><span>IT и оцифровка</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calendar__col3">
+                            <div class="calendar__top">
+                                <div class="text30 bold-text">
+                                    События
+                                </div>
+                            </div>
+                            <div class="calendar__groups">
+                                <div class="calendar-group">
+                                    <div class="calendar-group__title">
+                                        Формат
+                                    </div>
+                                    <div class="calendar-group__checks">
+                                        <div class="m-check">
+                                            <input type="checkbox">
+                                            <label><span>Онлайн</span></label>
+                                        </div>
+                                        <div class="m-check">
+                                            <input type="checkbox">
+                                            <label><span>Оффлайн</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="calendar-group">
+                                    <div class="calendar-group__title">
+                                        Организаторы
+                                    </div>
+                                    <fieldset class="fg">
+                                        <select>
+                                            <option selected disabled>Найти и выбрать клуб</option>
+                                            <option>Клуб 1</option>
+                                            <option>Клуб 2</option>
+                                            <option>Клуб 3</option>
+                                        </select>
+                                    </fieldset>
+                                    <div class="m-check">
+                                        <input type="checkbox">
+                                        <label><span>ТОП-клубы (выше 4.5)</span></label>
+                                    </div>
+                                </div>
+                                <div class="calendar-group">
+                                    <div class="calendar-group__title">
+                                        Локация
+                                    </div>
+                                    <fieldset class="fg">
+                                        <select>
+                                            <option selected>Санкт-Петербург</option>
+                                            <option>Москва</option>
+                                            <option>Казань</option>
+                                        </select>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="events">
+                <div class="container">
+                    <div class="events__top">
+                        <div class="text30 bold-text">
+                            События ноября:
+                        </div>
+                        <div class="events__desc">
+                            <div class="text14">Онлайн, ТОП-клубы (выше 4.5), Управление</div>
+                        </div>
+                    </div>
+                    <div class="events__items">
+                        <div class="event-item">
+                            <div class="event-item__col1">
+                                <div class="event-item__title">
+                                    <div class="text14">Дата</div>
+                                </div>
+                                <div class="event-item__date text20 bold-text lh150">
+                                    19 ноября
+                                </div>
+                            </div>
+                            <div class="event-item__col2">
+                                <div class="event-item__title">
+                                    <div class="text14">Название события</div>
+                                </div>
+                                <div class="event-item__name text20 lh150">
+                                    Название события
+                                </div>
+                                <div class="event-item__desc text15 lh150">
+                                    Короткое описание ивента, включающее в себя всю ключевую необходимую для принятия решения об участии информацию
+                                </div>
+                            </div>
+                            <div class="event-item__col3">
+                                <div class="event-item__title">
+                                    <div class="text14">Стоимость</div>
+                                </div>
+                                <div class="event-item__price text20 bold-text lh150">
+                                    1 000 руб
+                                </div>
+                            </div>
+                            <div class="event-item__col4">
+                                <div class="event-item__title">
+                                    <div class="text14">Тематика</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Управление, Персонал
+                                </div>
+                            </div>
+                            <div class="event-item__col5">
+                                <div class="event-item__title">
+                                    <div class="text14">Формат</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Онлайн
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-item__col1">
+                                <div class="event-item__title">
+                                    <div class="text14">Дата</div>
+                                </div>
+                                <div class="event-item__date text20 bold-text lh150">
+                                    19 ноября
+                                </div>
+                            </div>
+                            <div class="event-item__col2">
+                                <div class="event-item__title">
+                                    <div class="text14">Название события</div>
+                                </div>
+                                <div class="event-item__name text20 lh150">
+                                    Название события
+                                </div>
+                                <div class="event-item__desc text15 lh150">
+                                    Короткое описание ивента, включающее в себя всю ключевую необходимую для принятия решения об участии информацию
+                                </div>
+                            </div>
+                            <div class="event-item__col3">
+                                <div class="event-item__title">
+                                    <div class="text14">Стоимость</div>
+                                </div>
+                                <div class="event-item__price text20 bold-text lh150">
+                                    1 000 руб
+                                </div>
+                            </div>
+                            <div class="event-item__col4">
+                                <div class="event-item__title">
+                                    <div class="text14">Тематика</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Управление, Персонал
+                                </div>
+                            </div>
+                            <div class="event-item__col5">
+                                <div class="event-item__title">
+                                    <div class="text14">Формат</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Смешанный
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-item__col1">
+                                <div class="event-item__title">
+                                    <div class="text14">Дата</div>
+                                </div>
+                                <div class="event-item__date text20 bold-text lh150">
+                                    19 ноября
+                                </div>
+                            </div>
+                            <div class="event-item__col2">
+                                <div class="event-item__title">
+                                    <div class="text14">Название события</div>
+                                </div>
+                                <div class="event-item__name text20 lh150">
+                                    Название события
+                                </div>
+                                <div class="event-item__desc text15 lh150">
+                                    Короткое описание ивента, включающее в себя всю ключевую необходимую для принятия решения об участии информацию
+                                </div>
+                            </div>
+                            <div class="event-item__col3">
+                                <div class="event-item__title">
+                                    <div class="text14">Стоимость</div>
+                                </div>
+                                <div class="event-item__price text20 bold-text lh150">
+                                    1 000 руб
+                                </div>
+                            </div>
+                            <div class="event-item__col4">
+                                <div class="event-item__title">
+                                    <div class="text14">Тематика</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Управление, Персонал
+                                </div>
+                            </div>
+                            <div class="event-item__col5">
+                                <div class="event-item__title">
+                                    <div class="text14">Формат</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Онлайн
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-item__col1">
+                                <div class="event-item__title">
+                                    <div class="text14">Дата</div>
+                                </div>
+                                <div class="event-item__date text20 bold-text lh150">
+                                    19 ноября
+                                </div>
+                            </div>
+                            <div class="event-item__col2">
+                                <div class="event-item__title">
+                                    <div class="text14">Название события</div>
+                                </div>
+                                <div class="event-item__name text20 lh150">
+                                    Название события
+                                </div>
+                                <div class="event-item__desc text15 lh150">
+                                    Короткое описание ивента, включающее в себя всю ключевую необходимую для принятия решения об участии информацию
+                                </div>
+                            </div>
+                            <div class="event-item__col3">
+                                <div class="event-item__title">
+                                    <div class="text14">Стоимость</div>
+                                </div>
+                                <div class="event-item__price text20 bold-text lh150">
+                                    1 000 руб
+                                </div>
+                            </div>
+                            <div class="event-item__col4">
+                                <div class="event-item__title">
+                                    <div class="text14">Тематика</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Управление, Персонал
+                                </div>
+                            </div>
+                            <div class="event-item__col5">
+                                <div class="event-item__title">
+                                    <div class="text14">Формат</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Онлайн
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-item__col1">
+                                <div class="event-item__title">
+                                    <div class="text14">Дата</div>
+                                </div>
+                                <div class="event-item__date text20 bold-text lh150">
+                                    19 ноября
+                                </div>
+                            </div>
+                            <div class="event-item__col2">
+                                <div class="event-item__title">
+                                    <div class="text14">Название события</div>
+                                </div>
+                                <div class="event-item__name text20 lh150">
+                                    Название события
+                                </div>
+                                <div class="event-item__desc text15 lh150">
+                                    Короткое описание ивента, включающее в себя всю ключевую необходимую для принятия решения об участии информацию
+                                </div>
+                            </div>
+                            <div class="event-item__col3">
+                                <div class="event-item__title">
+                                    <div class="text14">Стоимость</div>
+                                </div>
+                                <div class="event-item__price text20 bold-text lh150">
+                                    1 000 руб
+                                </div>
+                            </div>
+                            <div class="event-item__col4">
+                                <div class="event-item__title">
+                                    <div class="text14">Тематика</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Управление, Персонал
+                                </div>
+                            </div>
+                            <div class="event-item__col5">
+                                <div class="event-item__title">
+                                    <div class="text14">Формат</div>
+                                </div>
+                                <div class="text15 lh150">
+                                    Онлайн
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__col1">
+                        <a href="" class="logo">
+                            <img class="_view1" src="img/logo3.svg" alt="">
+                            <img class="_view2" src="img/logo4.svg" alt="">
+                        </a>
+                        <div class="footer__info">
+                            <a href="" class="footer__rating">
+                                <span>Рейтинг бизнес-клубов России</span>
+                            </a>
+                            <div class="footer__c">
+                                <span>2023. Все права защищены</span>
+                            </div>
+                            <a href="" class="footer__conf">
+                                <span>Политика в отношении обработки персональных данных</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__col2">
+                        <div class="footer-nav">
+                            <div class="footer__title text16 bold-text">
+                                Ссылки
+                            </div>
+                            <div class="footer-nav__links">
+                                <a href="" class="footer-nav__link"><span>Рейтинг</span></a>
+                                <a href="" class="footer-nav__link"><span>Новости</span></a>
+                                <a href="" class="footer-nav__link"><span>Календарь</span></a>
+                                <a href="" class="footer-nav__link"><span>Реклама</span></a>
+                                <a href="" class="footer-nav__link"><span>Контакты</span></a>
+                                <a href="" class="footer-nav__link bold-text"><span>Добавить бизнес-клуб</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__col3">
+                        <div class="footer__title text16 bold-text">
+                            Внимание!
+                        </div>
+                        <div class="footer__hint">
+                            <span>Вся информация на сайте носит ознакомительный характер. Администрация проекта не несет ответственности за личное мнение пользователей о каком-либо продукте.</span>
+                        </div>
+                        <div class="footer__contacts">
+                            <div class="text12">Связь с редакцией:</div>
+                            <a href="" class="footer__telegram"><span>@telegram</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
